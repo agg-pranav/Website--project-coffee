@@ -3,6 +3,8 @@ h1,h2,h3{
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    width: 960px;
 }
 a:link,a:visited{
     text-decoration: none;
@@ -12,13 +14,51 @@ a:link,a:visited{
 a:hover{
     color: black;
 }
+nav ul{
+    padding: 0;
+    padding: 0;
+}
 nav li{
     display: inline;
+    float: left;
+    width: 320px;
 }
 nav a:link, nav a:visited{
     background-color: brown;
     color: white;
+    width: 960 px;
+    text-align: center;
+    padding: 10px 0;
+    display: block;
 }
 nav a:hover{
     background-color: black;
+}
+aside{
+    width: 280px;
+    background-color: tan;
+    float: right;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.photo{
+    margin: 20px;
+    float: right;
+}
+header{
+    background-image: url(beans.jpeg);
+    height: 100px;
+    margin-bottom: 70px;
+}
+header h1{
+    color: rgba(256,256,256,.8);
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 50px;
+}
+.pic{
+    float: right;
+    margin: 20px;
 }
