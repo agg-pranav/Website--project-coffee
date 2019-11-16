@@ -1,0 +1,24 @@
+h1,h2,h3{
+    color: brown;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:link,a:visited{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+a:hover{
+    color: black;
+}
+nav li{
+    display: inline;
+}
+nav a:link, nav a:visited{
+    background-color: brown;
+    color: white;
+}
+nav a:hover{
+    background-color: black;
+}
