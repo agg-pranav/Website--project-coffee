@@ -21,7 +21,7 @@ nav ul{
 nav li{
     display: inline;
     float: left;
-    width: 320px;
+    width: 240px;
 }
 nav a:link, nav a:visited{
     background-color: brown;
