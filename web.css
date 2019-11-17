@@ -21,7 +21,7 @@ nav ul{
 nav li{
     display: inline;
     float: left;
-    width: 240px;
+    width: 192px;
 }
 nav a:link, nav a:visited{
     background-color: brown;
@@ -65,7 +65,7 @@ header h1{
 footer{
     margin: 40px 0;
 }
-footer a:link, footera:visited{
+footer a:link, footer:visited{
     color: gray;
     text-decoration: none;
     display: block;
@@ -75,4 +75,13 @@ footer a:link, footera:visited{
 }
 footer a:hover{
     color: black;
+}
+td, th{
+    border: 1px solid black;
+    width: 25%;
+    text-align: center;
+    padding: 5px;
+}
+table{
+    border-collapse: collapse;
 }
